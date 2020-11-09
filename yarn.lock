@@ -21,10 +21,10 @@
   resolved "https://registry.yarnpkg.com/@amplitude/ua-parser-js/-/ua-parser-js-0.7.24.tgz#2ce605af7d2c38d4a01313fb2385df55fbbd69aa"
   integrity sha512-VbQuJymJ20WEw0HtI2np7EdC3NJGUWi8+Xdbc7uk8WfMIF308T0howpzkQ3JFMN7ejnrcSM/OyNGveeE3TP3TA==
 
-"@amplitude/utils@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@amplitude/utils/-/utils-1.0.4.tgz#e451b17b38b0efb67267233c4da7d9e6c487326a"
-  integrity sha512-yxGcBpWGW1BTRsh9ihSkmRDs9Wza1YjPHzTCkmk9RxML3K8+UNylOJ6MO3YOGlY3qMeFT8TtuVhQLu0srWGrUQ==
+"@amplitude/utils@^1.0.4", "@amplitude/utils@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@amplitude/utils/-/utils-1.0.5.tgz#843d96b7965c69213bb1896980bed2c1569fbbed"
+  integrity sha512-leo4meeTAvp4W+UWk7EcWaJKuuJ3HqbNglRJPVAUYXaoCs2UzCnCVvjj5rUBN+Mhe0pAmkpEHHaS/1iv2prcKA==
   dependencies:
     "@amplitude/types" "^1.0.4"
 
@@ -2055,12 +2055,13 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-amplitude-js@^7.3.0:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/amplitude-js/-/amplitude-js-7.3.1.tgz#f49628ca919f3298e3fa8286d2310227d0270b17"
-  integrity sha512-dsJU9MdtDDAOtKnbHrJuVBgsL5UGxD1P2B7doGdAQ1hxxT/5mFrmJTFzi1tKe+2ir3QtcRa9B0qvH8TMsGw22A==
+amplitude-js@^7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/amplitude-js/-/amplitude-js-7.3.2.tgz#67425b7659d848c7128ccf78a2255d64c4eff468"
+  integrity sha512-OngxKt9FUMnskD/G38bgPuGTIMV29GQXct+1KvBCYzjAl/pMR6LDzAJA2y7BwVmGUDeWcutGr6umeWaj2Pgdqg==
   dependencies:
     "@amplitude/ua-parser-js" "0.7.24"
+    "@amplitude/utils" "^1.0.5"
     blueimp-md5 "^2.10.0"
     query-string "5"
 
