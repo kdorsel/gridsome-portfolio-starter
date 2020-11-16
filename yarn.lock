@@ -2,31 +2,41 @@
 # yarn lockfile v1
 
 
-"@amplitude/node@^1.0.3":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@amplitude/node/-/node-1.0.4.tgz#4305627de9c629823411b1370923b4904fd0721e"
-  integrity sha512-BZNgAiXPRf2OPnp5nOcNTlXT4nnnGGrfzT+UjfIqyaPfcLfXm0H0spt9ce7h84jKoFvB2AESZ7G/642461Oq3w==
+"@amplitude/eslint-config-typescript@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@amplitude/eslint-config-typescript/-/eslint-config-typescript-1.1.0.tgz#f6d876febda6f4470564e806576e43750d60a094"
+  integrity sha512-N8sKkwtFakPD2/cSOrBnM5Wudjp4qeDD69U1cG7dZ6DDczxBhUEqnJDJ0wiYmKMPXqr+bmFOsDdbCcOmb/CLYA==
+
+"@amplitude/node@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@amplitude/node/-/node-1.1.0.tgz#dd4b462e37cbd831760e2e429990884da71a546c"
+  integrity sha512-rPc+wecJOHcu4IqSnA2HJvwn7eAy3aFj4JVwUJJ5RanHuJTITRHawbRiHYmV1pMr46HWtAL8PxB3QMmdtKlHmA==
   dependencies:
-    "@amplitude/types" "^1.0.4"
-    "@amplitude/utils" "^1.0.4"
+    "@amplitude/eslint-config-typescript" "^1.1.0"
+    "@amplitude/types" "^1.1.0"
+    "@amplitude/utils" "^1.1.0"
     tslib "^1.9.3"
 
-"@amplitude/types@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@amplitude/types/-/types-1.0.4.tgz#21275b030c8267f9ea133a79c5c525e30c706d69"
-  integrity sha512-iWdgTXiE0T/QCK88g2ezJEhJpYHDvDs0StVVPu1ygcl6qYzk/8xrNvbeEibiIBT8t/GJ8FtH5ZIPx3c4CMjlig==
+"@amplitude/types@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@amplitude/types/-/types-1.1.0.tgz#d9caf5f95d74e02e129c7b090deccd76be350b00"
+  integrity sha512-aJebJlI1hfRrzsbcRzW1heTDEClhElwEJ4ODyYZbBacKzH29q3OKZCkgNfaEYdxfgLpoDSh/ffHYpl7fWm3SQA==
+  dependencies:
+    "@amplitude/eslint-config-typescript" "^1.1.0"
 
 "@amplitude/ua-parser-js@0.7.24":
   version "0.7.24"
   resolved "https://registry.yarnpkg.com/@amplitude/ua-parser-js/-/ua-parser-js-0.7.24.tgz#2ce605af7d2c38d4a01313fb2385df55fbbd69aa"
   integrity sha512-VbQuJymJ20WEw0HtI2np7EdC3NJGUWi8+Xdbc7uk8WfMIF308T0howpzkQ3JFMN7ejnrcSM/OyNGveeE3TP3TA==
 
-"@amplitude/utils@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@amplitude/utils/-/utils-1.0.4.tgz#e451b17b38b0efb67267233c4da7d9e6c487326a"
-  integrity sha512-yxGcBpWGW1BTRsh9ihSkmRDs9Wza1YjPHzTCkmk9RxML3K8+UNylOJ6MO3YOGlY3qMeFT8TtuVhQLu0srWGrUQ==
+"@amplitude/utils@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@amplitude/utils/-/utils-1.1.0.tgz#987e539ec001412960239efc2a39029f655d0e8c"
+  integrity sha512-TbKgBZNSRFu5RfYTKpprn/DFlZqr8jnmjXASZyQ/m8XDdbD2VoRqHDmKUwFiruX9OhAb2m9BhjLuaiwRYHCcqQ==
   dependencies:
-    "@amplitude/types" "^1.0.4"
+    "@amplitude/eslint-config-typescript" "^1.1.0"
+    "@amplitude/types" "^1.1.0"
+    tslib "^1.9.3"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.5.5":
   version "7.10.4"
