@@ -17,7 +17,7 @@
     "@microflash/gridsome-plugin-feed": "^1.1.7",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "gridsome": "^0.7.21",
     "gridsome-plugin-remark-shiki": "^0.6.0",
     "postcss": "^7",
