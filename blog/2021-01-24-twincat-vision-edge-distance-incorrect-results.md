@@ -1,6 +1,6 @@
 ---
 title: Twincat Vision Edge Distance Incorrect Results
-path: twincat-vision-edge-distance-incorrect-results
+path: /twincat-vision-edge-distance-incorrect-results
 date: 2021-01-24
 summary: Investigating irregular edge distance calculation using TwinCAT standard tools. Explanation of root cause and discussion of potential solutions.
 tags: ['beckhoff', 'twincat', 'vision']

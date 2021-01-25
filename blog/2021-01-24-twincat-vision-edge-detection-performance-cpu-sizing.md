@@ -1,6 +1,6 @@
 ---
 title: Twincat Vision Edge Detection Performance and CPU sizing
-path: twincat-vision-edge-detection-performance-cpu-sizing
+path: /twincat-vision-edge-detection-performance-cpu-sizing
 date: 2021-01-24
 summary: Edge localization testing using a variety of algorithms and parameters. Results on edge detection performance and steady state as well as computation load and CPU sizing.
 tags: ['beckhoff', 'twincat', 'vision', 'hardware', 'ipc']
