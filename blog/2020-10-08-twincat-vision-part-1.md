@@ -21,7 +21,7 @@ You can find the vision documentation pdf [here](https://download.beckhoff.com/d
 
 
 ### Background
-Let's start with the final image with all found edges displayed. The red O is the start of the search line and the red X the end. The green lines are the best fit line while the blue X are the matched points. The original is 2500x2000px hence the small markups. You can grab the raw version [here](./images/geometry.jpg).
+Let's start with the final image with all found edges displayed. The red O is the start of the search line and the red X the end. The green lines are the best fit line while the blue X are the matched points. The [original](/vision-original.png) is 2500x2000px hence the small markups.
 
 ![background](./images/geometry.jpg)
 
@@ -509,4 +509,7 @@ Cons:
 - Limited basic feature set making it hard to use unless you're an image processing expert or doing something fairly simple
 - Convoluted syntax (although as seen here, there are workarounds)
 
-In part 2 of this vision series I will continue working on `FB_Camera` to clean it up and add some of the missing functionality.
+Continue reading about TwinCAT Vision with these two blog posts.
+
+- [Edge Detection Performance and CPU Sizing](/twincat-vision-edge-detection-performance-cpu-sizing/)
+- [Edge Distance Measurements and Incorrect Results](/twincat-vision-edge-distance-incorrect-results/)
