@@ -15,6 +15,7 @@
       </div>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div class="markdown-body mb-8" v-html="$page.post.content" />
+      <iframe v-if="$page.post.form.length > 0" :src="$page.post.form" width="640" height="802" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       <div class="mb-8">
         <g-link to="/blog" class="font-bold uppercase">Back to Blog</g-link>
       </div>
@@ -28,6 +29,7 @@ query Post($path: String!) {
   post: post(path: $path) {
     title
     date(format: "MMMM D, Y")
+    form
     content
     tags {
       title
